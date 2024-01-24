@@ -1,0 +1,197 @@
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+  cursor: pointer !important;
+}
+
+#header {
+  position: fixed;
+  width: 10%;
+  top: 50px;
+  z-index: 90;
+  margin: 0px 0 0px;
+}
+
+#header .headerIn {
+  min-width: 1200px;
+  max-width: 1450px;
+}
+
+#header .logoTop {
+  float: left;
+  font-size: 28px;
+  letter-spacing: 0;
+  font-weight: normal;
+  margin: 0px 0 0 10px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 33px;
+  text-transform: capitalize;
+}
+
+#header .rog {
+  float: right;
+  text-transform: uppercase;
+  line-height: 33px;
+  font-size: 10px;
+}
+
+#header .rog li {
+  float: left;
+  margin: 0 0 0 11px;
+}
+
+#w_all {
+  position: relative;
+  margin: 0 auto;
+}
+
+#wrap {
+  position: relative;
+  margin: 0 auto;
+  min-width: 1200px;
+  max-width: 1450px;
+}
+
+#container {
+  clear: both;
+  margin: 150px 0 0;
+  padding: 0px 0 0;
+  width: 100%;
+}
+
+#c_left {
+  position: fixed;
+  float: left;
+  padding: 0px 0 0 10px;
+  z-index: 90;
+}
+
+#c_left .menu1 {
+  margin: 100px 0 0;
+  line-height: 19px;
+}
+
+#c_left .menu2 {
+  margin: 50px 0 30px;
+  line-height: 19px;
+}
+
+#c_right {
+  float: right;
+  width: 80%;
+  padding: 0px 10px 0 0;
+}
+
+body,
+code {
+  font: 11px "Arial", "Arimo", "Malgun Gothic", sans-serif, AppleGothic,
+    sans-serif;
+  color: #000 !important;
+  background: #fff;
+  letter-spacing: 0px;
+}
+
+img,fieldset {
+  border: none;
+  vertical-align: top;
+  margin: 0 auto;
+  display: block;
+}
+
+.inner-div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  border-radius: 5px;
+}
+
+#login {
+  width: 100%;
+  background-color: black;
+  border-color: transparent;
+  color: white;
+}
+
+.account {
+  display: block;
+  margin-bottom: 3px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  border-width: 0 0 1px;
+}
+
+#alert {
+  border-color: transparent;
+}
+
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+    margin: 0;
+    padding: 0;
+}
+
+body,code {
+  font: 11px "Arial", "Arimo", "Malgun Gothic", sans-serif, AppleGothic,
+    sans-serif;
+  color: #000;
+  background: #fff;
+  letter-spacing: 0px;
+}
+
+img,fieldset {
+    border: none;
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#w_all {
+  position: relative;
+  margin: 0 auto;
+}
+
+#wrap {
+  position: relative;
+  margin: 0 auto;
+  min-width: 1200px;
+  max-width: 1450px;
+}
+

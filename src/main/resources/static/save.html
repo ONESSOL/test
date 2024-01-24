@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+</head>
+
+<body>
+<form action="/auth/save" method="post" enctype="text/plain">
+    아이디: <input type="text" name="boardWriter"> <br><br>
+    비밀번호: <input type="password" name="boardPass"> <br><br>
+    이름: <input type="text" name="boardTitle"> <br><br>
+    휴대폰: <input type="text" name="boardTitle"> <br><br>
+    이메일: <input type="text" name="boardTitle"> <br><br>
+    주소: <input type="text" name="boardTitle"> <br><br>
+    상세주소: <input type="text" name="boardTitle"> <br><br>
+    우편번호: <input type="text" name="boardTitle"> <br><br>
+    <input type="submit" value="로그인">
+</form>
+<button th:onclick="|location.href='@{/home.html}'|">취소</button>
+</body>
+
+</html>

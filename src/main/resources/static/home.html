@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>ONESSOL</title>
+</head>
+
+<body>
+<div id="w_all">
+    <div id="wrap">
+        <div id="header">
+            <div class="headerIn">
+                <h1 class="logoTop "><a href="/">Onessol</a>
+                </h1>
+                <div class="rog">
+                    <ul>
+                        <li class="rog li"><a href="/login22.html">로그인</a>
+                        </li>
+                        <li class="rog li"><a href="/save22.html">회원가입</a>
+                        </li>
+                        <li><a href="/order.html">주문내역</a></li>
+                        <li><a href="/mypage.html">마이페이지</a></li>
+                        <li class="ct"><a href="/order/basket.html" class="cart_count">장바구니 0</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div id="c_left">
+                <div class="menu1">
+                    <ul>
+                        <li class="xans-record-"><a href="/product/list.html?cate_no=25">OUTER</a></li>
+                        <li class="xans-record-"><a href="/product/list.html?cate_no=26">TOP</a></li>
+                        <li class="xans-record-"><a href="/product/list.html?cate_no=27">BOTTOM</a></li>
+                        <li class="xans-record-"><a href="/product/list.html?cate_no=28">ACCESSORY</a></li>
+                    </ul>
+                </div>
+
+                <div class="menu2">
+                    <ul>
+                        <li class="xans-record-"><a href="/board/notice/1/">NOTICE</a></li>
+                        <li class="xans-record-"><a href="/board/review/4/">REVIEW</a></li>
+                        <li class="xans-record-"><a href="/board/qa/6/">Q&amp;A</a></li>
+
+                    </ul>
+                </div>
+
+                <form id="searchBarForm" name="" action="/product/search.html" method="get" target="_self"
+                      enctype="multipart/form-data">
+                    <input id="banner_action" name="banner_action" value="" type="hidden">
+                    <div class="xans-element- xans-layout xans-layout-searchheader "><!--
+$product_page=/product/detail.html
+$category_page=/product/list.html
+-->
+                        <fieldset>
+                            <a href="#" onclick="SEARCH_BANNER.submitSearchBanner(this); return false;"><img
+                                    src="./img/search_icon.png" alt="search"></a><input id="keyword" name="keyword"
+                                                                                        fw-filter=""
+                                                                                        fw-label="검색어" fw-msg=""
+                                                                                        class="inputTypeText"
+                                                                                        placeholder=""
+                                                                                        onmousedown="SEARCH_BANNER.clickSearchForm(this)"
+                                                                                        value="" type="text">
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./homeImg/2.jpg" class="d-block w-50" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./homeImg/3.jpg" class="d-block w-50" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="homeImg/5.jpg" class="d-block w-50" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
